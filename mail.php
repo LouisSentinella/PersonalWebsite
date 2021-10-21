@@ -14,5 +14,5 @@ $content="From: $name\r\n Message: $messagecontent\r\n Form: $formname\r\n ";
 $recipient = "louissentinella@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
+echo "<script>window.close();</script>";
 ?>
