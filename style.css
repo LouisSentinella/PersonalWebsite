@@ -124,11 +124,12 @@ nav {
 
 .img-box img {
     box-sizing: border-box;
-    padding: 50px;
-    width: 75%;
+
+    width: 60%;
     text-align: center;
     display: block;
     margin: 0 auto;
+    border: solid #78006A 1px;
 
 }
 
